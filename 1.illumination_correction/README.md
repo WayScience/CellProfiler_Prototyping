@@ -2,6 +2,8 @@
 
 In this module, I present the 10 CellProfiler pipelines I created using various manual parameters to create the illumination function calcuated from all of the images within the NF1 data set.
 
+The parameters for each module to create an illumination function are the **same** for each channel.
+
 The chosen image for comparison from the data set is **D6_01_1_4_DAPI_001.tif** because to the large artifact present in the bottom right corner. 
 I chose this image because in the [CellProfiler illumination correction tutorial](https://cellprofiler-examples.s3.amazonaws.com/ExampleIlluminationCorrection_Tutorial.pdf), it gives an example of an image with a large artifact that was removed using illumination correction. 
 
