@@ -1,13 +1,13 @@
 # Cell Profiler Illumination Correction Pipeline
 
-In this module, I present the 10 CellProfiler pipelines I created using various manual parameters to create the illumination function calcuated from all of the images within the NF1 data set.
+In this module, I present 10 CellProfiler pipelines I created using various manual parameters.
 
-The parameters for each module to create an illumination function are the **same** for each channel.
+Each pipeline calculates a different illumination function (depending on parameters) using all Schwann cell images from the NF1 data set.
 
 The chosen image for comparison from the data set is **D6_01_1_4_DAPI_001.tif** because to the large artifact present in the bottom right corner. 
 I chose this image because in the [CellProfiler illumination correction tutorial](https://cellprofiler-examples.s3.amazonaws.com/ExampleIlluminationCorrection_Tutorial.pdf), it gives an example of an image with a large artifact that was removed using illumination correction. 
 
-Based on this, I wanted to see how these pipelines did with an one image from the NF1 data set that contained a large artifact and assess if the pipelines could remove it like in the example.
+Based on this, I wanted to see how these pipelines performed with one image from the NF1 data set that contained a large artifact and assess if the pipelines could remove it like in the example.
 
 ## Opinions for each pipeline
 
@@ -15,7 +15,8 @@ Below I provide my opinions regarding each pipeline, how the illumination correc
 
 ### Formatting of the pipeline titles
 
-The pipelines have titles that are meant for you to input into CellProfiler in order. Here is the parameters that I changed for these pipelines and the options within them:
+The pipelines have titles that are meant for you to input into CellProfiler in order. 
+Here is the parameters that I changed for these pipelines and the options within them:
 
 #### CorrectIlluminationCalculate Module
 
