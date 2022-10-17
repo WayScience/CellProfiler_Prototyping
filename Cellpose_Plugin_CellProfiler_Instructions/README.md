@@ -7,6 +7,8 @@ __Please note__: instructions below presume a Linux environment.
 Create a conda environment using the [cellprofiler_conda_env.yml](cellprofiler_conda_env.yml) file using the code in the terminal below:
 
 ```console
+# First, make sure you're in the correct directory
+# cd Cellpose_Plugin_CellProfiler_Instructions
 conda env create -f cellprofiler_conda_env.yml
 ```
 This file is based off of the template from the [CellProfiler conda environment wiki page](https://github.com/CellProfiler/CellProfiler/wiki/Conda-Installation).

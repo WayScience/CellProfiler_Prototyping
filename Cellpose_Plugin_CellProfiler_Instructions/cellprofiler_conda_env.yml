@@ -23,5 +23,6 @@ dependencies:
 - mysqlclient=1.4.4
 - sentry-sdk=0.18.0
 - pip:
-- cellprofiler==4.2.4
-- cellpose
+  - cellprofiler==4.2.4
+  - cellpose==2.1.0
+  - cellpose[gui]
